@@ -8,148 +8,177 @@
 input_values = [
     # Test case 1
     (
-        ["iii9", "F", "10"],
-        ["Tipo de laptop i5, i7, i9: ",
-         "Tipo de cliente F, R, N: ",
-          "Cantidad de laptops: ",
-        "Error en tipo de laptop"],
-        '''Debe salir:
-        Error en tipo de laptop
+        ["1", "5"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 25.0"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
         '''
     ),
     (
-        ["i9", "Tec", "10"],
-        ["Tipo de laptop i5, i7, i9: ",
-         "Tipo de cliente F, R, N: ",
-          "Cantidad de laptops: ",
-        "Error en tipo de cliente"],
-        '''Debe salir:
-        Error en tipo de cliente
+        ["1", "15.5"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 240.25"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+    
+     (
+        ["2", "99.9", "33.9"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 3386.61"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+    
+    (
+        ["2", "10", "20"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 200.0"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+    
+    (
+        ["3", "3", "25","26"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 36.0"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+     (
+        ["3", "3", "25","26"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 36.0"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+    
+    (
+        ["3", "10", "12","15"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 59.81168364124187"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+     (
+        ["3", "10", "20","25"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "area = 94.99177595981665"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+    
+(
+        ["4"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "Adios"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
         '''
     ),
     (
-    ["i7", "R", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-     "Tipo de cliente F, R, N: ",
-      "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 23,750",
-    "Total a pagar: 71,250"],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 23,750
-    Total a pagar: 71,250
-    '''
+        ["0"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "Opcion incorrecta"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
+    ),
+     (
+        ["-1"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "Opcion incorrecta"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
     ),
     (
-    ["i7", "f", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 28,500",
-    "Total a pagar: 66,500"],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 28,500
-    Total a pagar: 66,500
-    '''
-    ),
-
-    (
-    ["i7", "n", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 9,500",
-    "Total a pagar: 85,500"
-    ],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 9,500
-    Total a pagar: 85,500
-    '''
-    ),
-
-    (
-    ["i7", "R", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 95,000",
-    "Descuento: 23,750",
-    "Total a pagar: 71,250"
-    ],
-    '''Debe salir:
-    Total sin dcto: 95,000
-    Descuento: 23,750
-    Total a pagar: 71,250
-    '''
-    ),
-
-    (
-    ["i5", "f", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 75,000",
-    "Descuento: 22,500",
-    "Total a pagar: 52,500"
-
-    ],
-    '''Debe salir:
-    Total sin dcto: 75,000
-    Descuento: 22,500
-    Total a pagar: 52,500
-    '''
-    ),
-    (
-    ["i9", "f", "19"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 218,500",
-    "Descuento: 65,550",
-    "Total a pagar: 152,950"
-    ],
-    '''Debe salir:
-    Total sin dcto: 218,500
-    Descuento: 65,550
-    Total a pagar: 152,950
-    '''
-    ),
-    (
-    ["i9", "n", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 115,000",
-    "Descuento: 11,500",
-    "Total a pagar: 103,500"
-    ],
-    '''Debe salir:
-    Total sin dcto: 115,000
-    Descuento: 11,500
-    Total a pagar: 103,500
-    '''
-    ),
-
-    (
-    ["i9", "r", "10"],
-    ["Tipo de laptop i5, i7, i9: ",
-    "Tipo de cliente F, R, N: ",
-    "Cantidad de laptops: ",
-    "Total sin dcto: 115,000",
-    "Descuento: 28,750",
-    "Total a pagar: 86,250"
-    ],
-    '''Debe salir:
-    Total sin dcto: 115,000
-    Descuento: 28,750
-    Total a pagar: 86,250
-
-    '''
+        ["100"],
+        ["""Area del
+1. Cuadrado
+2. Rectangulo
+3. Triangulo
+4. Salir
+Teclea la opcion: """,
+         "Opcion incorrecta"],
+        '''
+        revisa que si leiste los valores como flotantes, 
+        revisa si la funcion regresa valor
+        '''
     )
-
+    
 ]
