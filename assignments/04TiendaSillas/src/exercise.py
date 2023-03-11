@@ -10,9 +10,10 @@ def main() :
     # los datos a leer todos son flotantes - se manda llamar a la función con los argumentos correspondientes
     # el valor que retorna la funcion se muestra en pantalla como se indica en los casos de prueba
     
-    # si el usuario elige una opcion incorrecta debe mostrar Opcion incorrecta
+    # si el usuario elige una opcion que no existe en el menu el programa  debe mostrar Opcion incorrecta
     
-    # si el usuario elige salir debe desplegar Adios
+    # si el usuario elige la opcion de salir debe desplegar Adios
+    # Revisa muy bien los casos de prueba a detalle
     pass
 
 
