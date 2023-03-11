@@ -17,7 +17,7 @@ input_values = [
 "Teclea la opcion: ","",
          "area = 25.0"],
         '''
-        1. revisa que si leiste los valores como flotantes, 
+        opcion 1. caso 1. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -31,7 +31,7 @@ input_values = [
 "Teclea la opcion: ","",
          "area = 240.25"],
         '''
-        2. revisa que si leiste los valores como flotantes, 
+        opcion 1, caso 2. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -46,7 +46,7 @@ input_values = [
 "Teclea la opcion: ","","",
          "area = 3386.61"],
         '''
-        3. revisa que si leiste los valores como flotantes, 
+        opcion 2, caso 3. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -61,7 +61,7 @@ input_values = [
 "Teclea la opcion: ","","",
          "area = 200.0"],
         '''
-        4. revisa que si leiste los valores como flotantes, 
+        opcion 2, caso 4. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -76,7 +76,7 @@ input_values = [
 "Teclea la opcion: ","","","",
          "area = 36.0"],
         '''
-        5. revisa que si leiste los valores como flotantes, 
+        opcion 3, caso 5. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -90,7 +90,7 @@ input_values = [
 "Teclea la opcion: ","","","",
          "area = 36.0"],
         '''
-        6. revisa que si leiste los valores como flotantes, 
+        opcion 3, caso 6. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -105,12 +105,12 @@ input_values = [
 "Teclea la opcion: ","","","",
          "area = 59.81168364124187"],
         '''
-        7. revisa que si leiste los valores como flotantes, 
+        opcion 3, caso 7. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
      (
-        ["3", "10.0", "20.0","25.0"],
+        ["3", "10", "20","25"],
         ["Area del",
 "1. Cuadrado",
 "2. Rectangulo",
@@ -119,7 +119,7 @@ input_values = [
 "Teclea la opcion: ","","","",
          "area = 94.99177595981665"],
         '''
-        8. revisa que si leiste los valores como flotantes, 
+        opcion 3, caso 8. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -134,7 +134,7 @@ input_values = [
 "Teclea la opcion: ",
          "Adios"],
         '''
-        9. revisa que si leiste los valores como flotantes, 
+        opcion 4, caso 9. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -148,7 +148,7 @@ input_values = [
 "Teclea la opcion: ",
          "Opcion incorrecta"],
         '''
-        10. revisa que si leiste los valores como flotantes, 
+        opcion 0, caso 10. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -162,7 +162,7 @@ input_values = [
 "Teclea la opcion: ",
          "Opcion incorrecta"],
         '''
-        11. revisa que si leiste los valores como flotantes, 
+        opcion -1, caso 11. revisa que si leiste los valores como flotantes,
         revisa si la funcion regresa valor
         '''
     ),
@@ -176,10 +176,9 @@ input_values = [
 "Teclea la opcion: ",
          "Opcion incorrecta"],
         '''
-        12. revisa que si leiste los valores como flotantes, 
+        opcion 100, caso 12. revisa que si leiste los valores como flotantes, 
         revisa si la funcion regresa valor
         '''
     )
     
 ]
-
